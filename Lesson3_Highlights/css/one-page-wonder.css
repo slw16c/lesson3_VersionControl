@@ -6,13 +6,15 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #245D94;
+    color: #fff;
 }
 
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url('http://www.mycomputerexperts.net/wp-content/uploads/2017/01/shutterstock_120166339-1-2000x500.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -33,6 +35,13 @@ body {
     font-size: 77px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    color: #000;
+}
+.headline h3 {
+    font-size: 45px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    color: #000;
 }
 
 .featurette-divider {
@@ -45,10 +54,12 @@ body {
 
 .featurette-image.pull-left {
     margin-right: 40px;
+    border: 15px solid #fff; 
 }
 
 .featurette-image.pull-right {
     margin-left: 40px;
+    border: 15px solid #fff;
 }
 
 .featurette-heading {
